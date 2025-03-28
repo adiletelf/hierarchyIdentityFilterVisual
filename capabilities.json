@@ -1,0 +1,57 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Rows",
+            "name": "rows",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Columns",
+            "name": "columns",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Values",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "unselectAll": {
+            "properties": {
+                "unselectAllByDefault": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "unselectString": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "matrix": {
+                "rows": {
+                    "for": {
+                        "in": "rows"
+                    }
+                },
+                "columns": {
+                    "for": {
+                        "in": "columns"
+                    }
+                },
+                "values": {
+                    "for": {
+                        "in": "measure"
+                    }
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

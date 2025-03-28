@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "hierarchyIdentityFilterVisual",
+        "displayName": "Hierarchy Identity Filter Visual",
+        "guid": "hierarchyIdentityFilterVisual2CFFDA00CB5241489C7CEDFFBFC97B33",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Visual for testing hierarchy identity filters",
+        "supportUrl": "https://github.com/adiletelf/hierarchyIdentityFilterVisual",
+        "gitHubUrl": "https://github.com/adiletelf/hierarchyIdentityFilterVisual"
+    },
+    "apiVersion": "5.11.0",
+    "author": {
+        "name": "Adilet S.",
+        "email": "adiletelf@noreply.com"
+    },
+    "assets": {
+        "icon": "assets/icon-40.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}
