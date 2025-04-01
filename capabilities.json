@@ -17,6 +17,15 @@
         }
     ],
     "objects": {
+        "general": {
+            "properties": {
+                "filter": {
+                    "type": {
+                        "filter": true
+                    }
+                }
+            }
+        },
         "unselectAll": {
             "properties": {
                 "unselectAllByDefault": {

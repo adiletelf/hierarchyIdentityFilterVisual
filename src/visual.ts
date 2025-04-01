@@ -341,11 +341,17 @@ export class Visual implements IVisual {
             divTdData.style.display = "inline-block"
             nodeDataPoint.isSubTotal = node.isSubtotal;
 
-            divTdData.innerHTML = node.isSubtotal
-                ? "Totals"
-                : node.value === ''
-                    ? node.value.toString()
-                    : "No Data";
+            let label: string;
+            if (node.isSubtotal) {
+                label = "Totals";
+            } else {
+                if (node.value == '') {
+                    label = "No Data";
+                } else {
+                    label = node.value?.toString();
+                }
+            }
+            divTdData.innerHTML = label;
 
             if (!nodeDataPoint.isSubTotal) {
                 divTdData.addEventListener('contextmenu', (ev) => this.showContextMenu(ev, identity, dataRoles.Rows));

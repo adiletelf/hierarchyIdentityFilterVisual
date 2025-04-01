@@ -1,10 +1,10 @@
 {
     "visual": {
         "name": "hierarchyIdentityFilterVisual",
-        "displayName": "Hierarchy Identity Filter Visual",
+        "displayName": "Hierarchy Identity Filter Visual 1.1.0.0",
         "guid": "hierarchyIdentityFilterVisual2CFFDA00CB5241489C7CEDFFBFC97B33",
         "visualClassName": "Visual",
-        "version": "1.0.0.0",
+        "version": "1.1.0.0",
         "description": "Visual for testing hierarchy identity filters",
         "supportUrl": "https://github.com/adiletelf/hierarchyIdentityFilterVisual",
         "gitHubUrl": "https://github.com/adiletelf/hierarchyIdentityFilterVisual"

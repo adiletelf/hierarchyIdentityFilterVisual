@@ -57,8 +57,6 @@ class UnselectAllCardSettings extends FormattingSettingsCard {
         placeholder: ''
     });
 
-    // TODO: figure out what this does.
-    visible = false;
     name: string = "unselectAll";
     displayName: string = "Unselect all";
     slices: formattingSettings.Slice[] = [this.unselectAllByDefault, this.unselectString];
